@@ -50,7 +50,7 @@ export default function DetailMovie() {
         }
       });
     }
-  }, [movieDetail]);
+  }, [movieDetail, navigate]);
 
   return <></>;
 }
