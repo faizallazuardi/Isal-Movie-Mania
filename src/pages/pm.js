@@ -14,7 +14,7 @@ export default function PopularMovieList() {
       setMovies(response);
       // console.log(response);
     });
-  }, []);
+  }, [movies]);
 
   const imgUrl = process.env.REACT_APP_BASEIMGURL;
   return (

@@ -43,7 +43,7 @@ function HasilSearch() {
           return (
             <div className="Movie-wrap" key={film.id}>
               <div className="Movie-title">{film.title}</div>
-              <img className="Movie-img" src={`${imgUrl}/${film.poster_path}`} />
+              <img className="Movie-img" src={`${imgUrl}/${film.poster_path}`} alt="" />
               <Link to={`/detail/${film.id}`} className="btn-detail">
                 Detail
               </Link>
